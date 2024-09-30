@@ -14,6 +14,6 @@ function GetValues()
     num1 = document.getElementById("num1").value;
     num2 = document.getElementById("num2").value;
     limit = document.getElementById("limit").value;
-    sum(num1,num2,limit);
-    alert(sum);
+    <button onclick ="sum(num1,num2,limit)">check sum</button>
+    
 }
