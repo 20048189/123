@@ -24,6 +24,6 @@ function sumMultiples(a, b, l) {
 }
 
 const a = 2;
-const b = 4;
+const b = 7;
 const l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 alert(sumMultiples(a, b, l));
