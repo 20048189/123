@@ -14,11 +14,11 @@ Array
 
 
 function sumMultiples(a, b, l) {
-    return l.reduce((sum, current) => {
-        if (current % a === 0 || current % b === 0) {
-            return sum + current;
+    return l.reduce((plus, present) => {
+        if (present % a === 0 || present % b === 0) {
+            return plus + present;
         } else {
-            return sum;
+            return plus;
         }
     }, 0);
 }
