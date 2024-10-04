@@ -23,7 +23,7 @@ function sumMultiples(a, b, l) {
     }, 0);
 }
 
-const a = 3;
-const b = 5;
+const a = 2;
+const b = 4;
 const l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 alert(sumMultiples(a, b, l));
