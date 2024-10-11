@@ -30,4 +30,4 @@ const prices = {
     "orange": 0.75
 };
 
-console.log(calculateTotalCost(basket, prices));
+alert(calculateTotalCost(basket, prices));
