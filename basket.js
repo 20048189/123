@@ -16,7 +16,7 @@ function calculateTotalCost(basket, prices) {
         }
     }
 
-    return totalCost;
+    return totalcost;
 }
 const basket = {
     "apple": 3,
