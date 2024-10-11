@@ -12,7 +12,7 @@ function calculateTotalCost(basket, prices) {
 
     for (let product in basket) {
         if (prices.hasOwnProperty(product)) {
-            totalCost += basket[product] * prices[product];
+            totalcost += basket[product] * prices[product];
         }
     }
 
