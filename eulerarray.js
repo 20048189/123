@@ -1,4 +1,4 @@
-Array
+
 //  1. Create a function which takes parameters a,b,l
 // l is a list of integers, Find the sum of all the multiples of a or b in l.
 
