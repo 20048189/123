@@ -13,7 +13,7 @@
 // Find the sum of all the multiples of a or b in l.
 
 
-function sumMultiples(a, b, l) {
+function sumMultiple(a, b, l) {
     return l.reduce((plus, present) => {
         if (present % a === 0 || present % b === 0) {
             return plus + present;
@@ -26,4 +26,4 @@ function sumMultiples(a, b, l) {
 const a = 2;
 const b = 7;
 const l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-alert(sumMultiples(a, b, l));
+alert(sumMultiple(a, b, l));
