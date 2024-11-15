@@ -4,7 +4,7 @@ function sum(a,b,n)
         for(i=1;i<n;i++)
         {
             if(i%a==0 || i%b==0)
-                s+=i;
+                s+=i
         }
         alert("Sum = "+s);
     }
